@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400');
+
+
+*body{
+    background: rgb(246, 245, 248);
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+section{
+    margin: 20px;
+}
+
+.navbar{
+    background:rgb(65, 15, 112);
+ 
+}
+.nav-link{
+   
+    color: rgb(147, 134, 157);
+}
+.navbar-brand{
+    color: rgb(147, 134, 157);
+}
+a{
+    color: rgb(106, 80, 128);
+}
+.navbar-collapse{
+    text-align: right;
+}
+.card{
+    border: none;
+    background: rgb(246, 245, 248);
+}
+.card-body{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 15px;
+    background: rgb(246, 245, 248);
+   border:1px lightslategray;
+    
+}
+h2{
+    font-size: 2.5em;
+    font-family: "Roboto";
+    margin-top: 130px;
+}
+
+h5{
+    font-size: 1.5em;
+    font-family: "Roboto";
+}
+h3{
+    font-family: "Roboto";
+    font-size: 2rem;
+}
+.services{
+    text-align: center;
+    font-size: 3rem;
+}
+h4{
+    font-family: "Roboto";
+    font-size: 1.75rem;
+ 
+}
+.btn{
+    background: rgb(8, 1, 14);
+    color:antiquewhite;
+    margin: auto;
+    
+}
+.nav-item{
+    text-align: right;
+}
+li{
+    line-height: 30px;
+}
+.logo{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+   
+.contact-me{
+    width:30px;
+}
+.btn-submit{
+  margin-left: 20px;
+
+}
+.whatsapp-container{
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    visibility: visible;
+    opacity: 1;
+   z-index: 9999;
+   border-radius: 50%;
+   transition: opacity 0.5s;
+   padding-top:70px ;
+   animation: pulse 2s infinite;
+   /* background: black; */
+   text-align: center;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.whatsapp-container a{
+display:block;
+margin-bottom: 10px;
+text-decoration: none;
+}
+.whatsapp-container p{
+    font-size: 16px;
+    color:#666;
+    margin: 0px;
+    top: 20px;
+}
+.whatsapp:hover{
+opacity: 0.8;
+}
+ .whatsapp-icon{
+    width: 100px;
+    padding-top: 100px;
+
+   float: right;
+ }
+ .footer{
+    background:rgb(65, 15, 112);
+    color: rgb(147, 134, 157);
+   padding: 5px;
+   
+ }
+ .img-fluid-card{
+max-width: 540px;
+ }
+ form{
+    background: rgb(246, 245, 248);
+ }
+ img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+}
+/* Call Container */
+.call-container {
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 10px; /* Position it on the left side */
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+    border-radius: 50%;
+    transition: opacity 0.5s;
+    padding-top: 70px;
+    animation: pulse 2s infinite;
+    text-align: center;
+}
+
+/* Call Icon */
+.call-icon {
+    width: 70px;
+    padding-top: 100px;
+   
+}
+
+/* Call Container Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Call Container Text */
+.call-container p {
+    font-size: 16px;
+    color: #666;
+    margin: 0px;
+    top: 20px;
+}
+.call-container a{
+    text-decoration: none;
+}
+.call-container a:hover {
+    opacity: 0.8;
+   
+}
